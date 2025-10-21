@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avada Restaurant</title>
+   	<link rel="shortcut icon" href="./img/fav.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/output.css"/>
+  </head>
+  <body class="overflow-x-hidden">
+    <header class="w-full h-24 mx-auto 2xl:container">
+      <div class="h-full row">
+        <div class="flex items-center w-3/4 h-full p-5 bg-black xl:w-1/4">
+          <img src="img/imgi_1_logo-svg.svg" alt="" />
+        </div>
+        <nav class="items-center hidden w-3/4 h-full bg-black xl:flex">
+          <ul
+            class="flex flex-wrap justify-end p-16 w-full gap-7 *:text-white *:uppercase *:text-xl"
+          >
+            <li class="relative group">
+              <a href="" class="flex"
+                >home
+                <i class="flex items-center"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </i>
+              </a>
+              <ul
+                class="absolute top-12 left-0 overflow-hidden group-hover:h-[115px] w-[200px] h-[0px] duration-700 *:capitalize"
+              >
+                <li
+                  class="flex items-center justify-center p-3 duration-700 bg-gray-400 hover:bg-yellow-700 hover:text-black hover:font-bold rounded-xl text-[14px] font-serif"
+                >
+                  <a href="">alternate homepage1</a>
+                </li>
+                <li
+                  class="flex items-center justify-center p-3 duration-700 bg-gray-700 hover:bg-yellow-700 hover:text-black hover:font-bold rounded-xl text-[14px] font-serif"
+                >
+                  <a href="">alternate homepage1</a>
+                </li>
+              </ul>
+            </li>
+            <li class="relative group">
+              <a href="" class="flex"
+                >history
+                <i class="flex items-center"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </i>
+              </a>
+              <ul
+                class="absolute top-12 left-0 overflow-hidden group-hover:h-[115px] w-[200px] h-[0px] duration-700 *:capitalize"
+              >
+                <li
+                  class="flex items-center justify-center p-3 duration-700 bg-gray-500 rounded-xl hover:font-bold text-[14px] font-serif hover:bg-yellow-700 hover:text-black"
+                >
+                  <a href="">alternate homepage1</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="">tim</a></li>
+            <li><a href="">menu</a></li>
+            <li class="relative group">
+              <a href="" class="flex"
+                >takeout
+                <i class="flex items-center"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </i>
+              </a>
+              <ul
+                class="absolute top-12 left-0 overflow-hidden group-hover:h-[115px] w-[200px] h-[0px] duration-700 *:capitalize"
+              >
+                <li
+                  class="flex items-center justify-center p-3 duration-700 bg-gray-400 text-white 
+                  hover:bg-yellow-700 hover:text-black hover:font-bold rounded-xl text-[14px] font-serif"
+                >
+                  <a href="">simple product</a>
+                </li>
+                <li
+                  class="flex items-center justify-center p-3 font-serif duration-700 bg-gray-500 rounded-xl hover:bg-yellow-700 hover:text-black hover:font-bold text-[14px]"
+                >
+                  <a href="">varieble product</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="">bulletin</a></li>
+            <li><a href="">reservations</a></li>
+          </ul>
+        </nav>
+        <div
+          class="flex items-center justify-end w-1/4 p-6 text-white bg-black xl:hidden"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <!-- ////////////////////////////////end header -->
+    <section class="w-full min-h-screen mx-auto 2xl:container">
+      <div class="flex-row-reverse h-full row">
+        <div
+          class="w-full xl:w-1/2 bg-[url(../img/imgi_26_slider52x.jpg)] md:h-full bg-cover bg-no-repeat bg-center min-h-screen"
+        ></div>
+        <div class="w-full min-h-screen bg-black xl:w-1/2 md:h-full">
+          <div
+            class="*:text-white *:flex h-full *:sm:p-3 w-full justify-start py-16 px-6 sm:p-2 *:p-6"
+          >
+            <h4 class="text-2xl">THE BEST TABLE IN TOWN</h4>
+            <!-- //////animation -->
+            <h2
+              class="font-bold text-[60px] md:text-[100px] lg:text-[110px] sm:text-[50px] xl:text-[100px] tracking-in-expand"
+            >
+              FINE DINING EXPERIENCE
+            </h2>
+            <!-- ////////animation -->
+            <p class="w-4/5 md:text-[20px] md:w-1/2">
+              Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus
+              scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.
+            </p>
+            <div class="mt-6">
+              <a
+                href=""
+                class="px-4 py-1 text-2xl font-bold duration-500 border border-white hover:bg-white hover:text-black bounce-left"
+                >buy avada today</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////////////////// -->
+    <section
+      class="w-full mx-auto font-serif border 2xl:container xl:p-11 slideInLeftCustom"
+    >
+      <div class="p-10 row">
+        <div class="w-full xl:w-1/2 *:text-black *:my-4">
+          <p
+            class="text-[20px] text-black w-full xl:w-[57%] xl:text-[20px] animate-slide-in"
+          >
+            <b>HAC TELLUS, FELIS RISUS AT</b>mattis mattis. Eget euismod semper
+            eget tortor, donec amet, blandit. Tristique facilisi faucibus
+            elementum feugiat in nam in feugiat. Ipsum odio etiam duis facilisis
+            amet vulputate.
+          </p>
+          <h2
+            class="text-4xl font-bold uppercase xl:text-[70px] xl:w-3/4 xl:leading-[75px]"
+          >
+            food is our common ground, a universal experience.
+          </h2>
+          <p class="text-[20px] xl:w-2/3 animate-slide-in-right">
+            Tristique tempus condimentum diam donec. Condimentum ullamcorper sit
+            elementum hendrerit mi nulla in consequat, ut. Metus, nullam
+            scelerisque netus viverra dui.
+          </p>
+          <img
+            src="img/imgi_3_signature.jpg"
+            alt=""
+            class="w-1/3 mt-3 sm:w-1/4"
+          />
+        </div>
+        <div class="w-full xl:w-1/2">
+          <figure
+            class="duration-700 hover:scale-[1.1] overflow-hidden flex sm:justify-center"
+          >
+            <img
+              src="img/info22x.jpg"
+              alt=""
+              class="shadow-md sm:w-3/4 xl:w-full shadow-black"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- ///////////////////////////////////// -->
+    <main class="w-full mx-auto font-semibold xl:p-14 2xl:container">
+      <div class="row">
+        <div class="flex flex-col justify-center w-full gap-4 p-9 xl:w-1/3">
+          <span class="flex justify-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-[100px] vibrant-color-changer"
+            >
+              <path
+                d="M6.13317 2L5.01052 9.85858C4.70849 11.9728 5.53231 13.7891 6.89117 15.0465C7.99601 16.0688 9.45948 16.7319 11.0005 16.9343V20H6.00047V22H18.0005V20H13.0005V16.9343C14.5415 16.7319 16.0049 16.0688 17.1098 15.0465C18.4686 13.7891 19.2924 11.9728 18.9904 9.85858L17.8678 2H6.13317ZM6.99042 10.1414L7.86776 4H16.1332L17.0105 10.1414C17.2085 11.5272 16.6892 12.7109 15.7514 13.5785C14.7968 14.4618 13.4178 15 12.0005 15C10.5831 15 9.20412 14.4618 8.24948 13.5785C7.31177 12.7109 6.79245 11.5272 6.99042 10.1414Z "
+              ></path>
+            </svg>
+          </span>
+          <h3 class="flex justify-center text-3xl font-bold text-black">
+            Perfect For Groups
+          </h3>
+          <div class="flex justify-center">
+            <span
+              class="text-[20px] flex justify-center w text-center-4/5 text-justify text-gray-500 md:w-1/3 lg:justify-center xl:w-full"
+              >Sed aenean egestas ut aliquam turpis mauris, molestie. Vitae
+              tellus tempor sem id tempus neque, tellus turpis turpis. Morbi
+              tortor id</span
+            >
+          </div>
+          <div class="flex justify-center">
+            <a
+              href=""
+              class="p-3 px-6 text-xl capitalize duration-700 border hover:border-black"
+              >explore the menu</a
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center w-full gap-4 p-9 xl:w-1/3">
+          <span class="flex justify-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-[100px] vibrant-color-changer"
+            >
+              <path
+                d="M8 1.5C8 0.947715 7.55228 0.5 7 0.5C6.44772 0.5 6 0.947715 6 1.5V2.5C6 2.50686 6.00042 2.51285 6.00081 2.51843C6.00385 2.56193 6.00516 2.58063 5.79289 2.79289L5.77277 2.81298C5.50599 3.07912 5 3.58391 5 4.5V5.5C5 6.05228 5.44772 6.5 6 6.5C6.55228 6.5 7 6.05228 7 5.5V4.5C7 4.49314 6.99958 4.48715 6.99919 4.48157C6.99615 4.43807 6.99484 4.41937 7.20711 4.20711L7.22723 4.18702C7.49401 3.92088 8 3.41609 8 2.5V1.5ZM19 1.5C19 0.947715 18.5523 0.5 18 0.5C17.4477 0.5 17 0.947715 17 1.5V2.5C17 2.50686 17.0004 2.51285 17.0008 2.51843C17.0038 2.56193 17.0052 2.58063 16.7929 2.79289L16.7728 2.81298C16.506 3.07912 16 3.58391 16 4.5V5.5C16 6.05228 16.4477 6.5 17 6.5C17.5523 6.5 18 6.05228 18 5.5V4.5C18 4.49314 17.9996 4.48715 17.9992 4.48157C17.9962 4.43807 17.9948 4.41937 18.2071 4.20711L18.2272 4.18702C18.494 3.92088 19 3.41609 19 2.5V1.5ZM12.5 0.5C13.0523 0.5 13.5 0.947715 13.5 1.5V2.5C13.5 3.41609 12.994 3.92088 12.7272 4.18702L12.7071 4.20711C12.4948 4.41937 12.4962 4.43807 12.4992 4.48157C12.4996 4.48715 12.5 4.49314 12.5 4.5V5.5C12.5 6.05228 12.0523 6.5 11.5 6.5C10.9477 6.5 10.5 6.05228 10.5 5.5V4.5C10.5 3.58391 11.006 3.07912 11.2728 2.81298L11.2929 2.79289C11.5052 2.58063 11.5038 2.56193 11.5008 2.51843C11.5004 2.51285 11.5 2.50686 11.5 2.5V1.5C11.5 0.947715 11.9477 0.5 12.5 0.5ZM4 10H20C20 14.4183 16.4183 18 12 18C7.58172 18 4 14.4183 4 10ZM3 8C2.44772 8 2 8.44771 2 9V10C2 14.1006 4.46819 17.6248 8 19.1679V20C8 20.5523 8.44772 21 9 21H15C15.5523 21 16 20.5523 16 20V19.1679C19.5318 17.6248 22 14.1006 22 10V9C22 8.44772 21.5523 8 21 8H3Z"
+              ></path>
+            </svg>
+          </span>
+          <h3 class="flex justify-center text-3xl font-bold text-black">
+            Fresh produce everyday
+          </h3>
+          <div class="flex justify-center">
+            <span
+              class="text-[20px] flex justify-center w text-center-4/5 text-justify text-gray-500 md:w-1/3 lg:justify-center xl:w-full"
+              >Sed aenean egestas ut aliquam turpis mauris, molestie. Vitae
+              tellus tempor sem id tempus neque, tellus turpis turpis. Morbi
+              tortor id</span
+            >
+          </div>
+          <div class="flex justify-center">
+            <a
+              href=""
+              class="p-3 px-6 text-xl capitalize duration-700 border hover:border-black"
+              >explore the menu</a
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center w-full gap-4 p-9 xl:w-1/3">
+          <span class="flex justify-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-[100px] vibrant-color-changer"
+            >
+              <path
+                d="M21 2V22H19V14H16V7C16 4.23858 18.2386 2 21 2ZM9 13.9V22H7V13.9C4.71776 13.4367 3 11.419 3 9V3H5V10H7V3H9V10H11V3H13V9C13 11.419 11.2822 13.4367 9 13.9Z"
+              ></path>
+            </svg>
+          </span>
+          <h3 class="flex justify-center text-3xl font-bold text-black">
+            The best table in town
+          </h3>
+          <div class="flex justify-center">
+            <span
+              class="text-[20px] flex justify-center w text-center-4/5 text-justify text-gray-500 md:w-1/3 lg:justify-center xl:w-full"
+              >Sed aenean egestas ut aliquam turpis mauris, molestie. Vitae
+              tellus tempor sem id tempus neque, tellus turpis turpis. Morbi
+              tortor id
+            </span>
+          </div>
+          <div class="flex justify-center">
+            <a
+              href=""
+              class="p-3 px-6 text-xl capitalize duration-700 border hover:border-black"
+              >explore the menu</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /////////////////////////////////// -->
+    <section class="w-full min-h-screen mx-auto 2xl:container">
+      <div class="flex h-full row">
+        <div
+          class="w-full h-[500px] xl:w-3/5 bg-[url(../img/bg.jpg)] md:h-full bg-cover bg-no-repeat bg-center sm:min-h-screen scale-in-center"
+        ></div>
+        <div
+          class="w-full bg-black sm:min-h-screen xl:w-2/5 md:h-full h-[550px]"
+        >
+          <div
+            class="*:text-white *:flex h-full *:sm:p-3 w-full sm:p-2 *:p-3.5 flex justify-center flex-col items-center xl:p-8 xl:gap-5"
+          >
+            <h4 class="text-2xl">FINE DINING EXPERIENCE</h4>
+            <h2
+              class="font-bold text-[45px] md:text-[100px] lg:text-[110px] sm:text-[50px] xl:text-[60px] text-center sm:w-3/4 w-full"
+            >
+              THE BEST TABLE IN TOWN
+            </h2>
+            <p
+              class="w-4/5 md:text-[20px] md:w-1/2 flex justify-center text-center"
+            >
+              Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus
+              scelerisque nisi in urna nulla. Sit tempor a et?
+            </p>
+            <div class="flex justify-center mt-6">
+              <a
+                href=""
+                class="px-4 py-1 text-2xl font-bold duration-500 border border-white hover:bg-white hover:text-black"
+                >buy avada today</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /////////////////////////////////////////video -->
+     <video src="video/1111421-Hd 1920 1080 30Fps.mp4" class="w-full p-5 md:px-56"  autoplay muted loop></video>
+    <!-- ///////////////////////////////////////////////////// -->
+    <div
+      class="flex justify-center w-full mt-6 font-serif text-xl text-black sm:text-3xl"
+    >
+      <p>What critics are saying about us</p>
+    </div>
+    <!-- ////////////////////////// -->
+    <section class="w-full min-h-screen mx-auto 2xl:container">
+      <div class="flex justify-center h-full p-8 row">
+        <div
+          class="w-full h-[250px] xl:w-2/4 bg-[url(../img/blog72x.jpg)] md:h-full bg-cover bg-no-repeat bg-center sm:min-h-screen object-cover animate-slide-in"
+        ></div>
+        <div
+          class="w-full bg-black sm:min-h-screen xl:w-2/5 md:h-full h-[550px] duration-700 overflow-hidden shadow-2xl hover:scale-105"
+        >
+          <div
+            class="*:text-white *:flex h-full *:sm:p-3 w-full sm:p-2 *:p-3.5 flex justify-center flex-col items-center xl:p-8 xl:gap-5"
+          >
+            <h4 class="text-2xl capitalize">meggy stewart</h4>
+            <h2
+              class="font-bold text-[45px] md:text-[100px] lg:text-[110px] sm:text-[50px] xl:text-[60px] text-center sm:w-3/4 w-full uppercase xl:w-full xl:text-center justify-center"
+            >
+              newyork times
+            </h2>
+            <span class="flex w-3/5 border-b-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+            </span>
+            <p
+              class="w-4/5 md:text-[20px] md:w-1/2 flex justify-center text-center"
+            >
+              Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus
+              scelerisque nisi in urna nulla. Sit tempor a et?
+            </p>
+            <div class="flex justify-center mt-6">
+              <a
+                href=""
+                class="px-4 py-1 text-xl font-bold uppercase duration-500 border border-white hover:bg-white hover:text-black"
+                >read full article</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //////////////////////////////////////////////////// -->
+    <section class="w-full min-h-screen mx-auto 2xl:container scale-up-hor-left slide-fwd-center">
+      <div class="justify-center h-full p-8 gap-14 row">
+        <div class="w-full sm:min-h-[100dvh]  xl:w-2/5 bg-[url(../img/info52x.jpg)] bg-cover bg-center relative h-[400px] ">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/5 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-black/100 to-transparent"></div>
+           <div
+            class="*:text-white *:flex h-full *:sm:p-2 w-full sm:p-2 *:p-3 flex  flex-col  xl:p-8 xl:gap-2 *:z-10 xl:mt-8"
+          >
+            <h4 class="text-2xl uppercase ">mary maxey</h4>
+            <h2
+              class="font-bold text-[30px] md:text-[60px] lg:text-[90px] sm:text-[50px] xl:text-[60px] text-center sm:w-3/4 w-full uppercase xl:w-full xl:text-center"
+            >
+              THE GUARDIAN
+            </h2>
+            <span class="flex w-1/3 border-b-2 sm:w-1/4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+            </span>
+            <p
+              class="w-4/5 md:text-[20px] md:w-1/2 "
+            >
+              Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed.
+            </p>
+            <div class="flex mt-1">
+              <a
+                href=""
+                class="px-4 py-1 text-xl font-bold uppercase duration-500 border border-white hover:bg-white hover:text-black"
+                >read full article</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- /////////////////// -->
+          <div class="w-full sm:min-h-[100dvh]  xl:w-2/5 bg-[url(../img/info12x.jpg)] bg-cover bg-center relative h-[400px]">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/5 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-black/100 to-transparent"></div>
+           <div
+            class="*:text-white *:flex h-full *:sm:p-2 w-full sm:p-2 *:p-3 flex  flex-col  xl:p-8 xl:gap-2 *:z-10 xl:mt-8 mt-1"
+          >
+            <h4 class="text-2xl uppercase ">mary maxey</h4>
+            <h2
+              class="font-bold text-[30px] md:text-[60px] lg:text-[90px] sm:text-[50px] xl:text-[60px] text-center sm:w-3/4 w-full uppercase xl:w-full xl:text-center"
+            >
+              THE GUARDIAN
+            </h2>
+            <span class="flex w-1/3 border-b-2 sm:w-1/4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="yellow"
+              >
+                <path
+                  d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"
+                ></path>
+              </svg>
+            </span>
+            <p
+              class="w-4/5 md:text-[20px] md:w-1/2 "
+            >
+              Non arcu mauris tortor ultrices mollis tellus euismod fermentum. Habitant amet tincidunt id sapien accumsan sed.
+            </p>
+            <div class="flex mt-1">
+              <a
+                href=""
+                class="px-4 py-1 text-xl font-bold uppercase duration-500 border border-white hover:bg-white hover:text-black"
+                >read full article</a
+              >
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////// -->
+     <div class="w-full m-5 mx-auto 2xl:container sm:my-14 sm:h-[300px] h-[200px]  md:h-[500px]">
+      <figure class="w-full h-full">
+        <img src="img/menu272x.jpg" alt="" class="object-cover w-full h-full">
+      </figure>
+     </div>
+     <!-- ////////////////////////////////////////////////// -->
+       <div
+      class="flex justify-center w-full mt-6 font-serif text-xl black sm:text-4xl"
+    >
+      <p>Latest news & promotions</p>
+    </div>
+    <!-- ////////////////////////////////////// -->
+     <section class="w-full mx-auto font-serif 2xl:container">
+      <div class="justify-center gap-10 sm:p-20 row md:p-4">
+        <div class="w-full md:w-3/12">
+          <figure class="w-full">
+            <img src="img/menu362x.jpg" alt="" class="object-cover w-full">
+          </figure>
+          <div class="justify-center row">
+             <h3 class="mt-3 font-bold text-black uppercase text-[20px] sm:text-[25px] md:text-[12px] xl:text-[22px]">The best coffee in town</h3>
+          <p class="sm:text-[12px] text-gray-700 p-4 text-[15px] text-center">By admin
+Published On: January 7th, 2020
+Categories: News</p>
+          </div>
+         
+        </div>
+        <div class="w-full md:w-3/12">
+          <figure class="w-full">
+            <img src="img/imgi_33_misc22x.jpg" alt="" class="object-cover w-full">
+          </figure>
+          <div class="justify-center row">
+             <h3 class="mt-3 font-bold text-black uppercase text-[20px] sm:text-[25px] md:text-[12px] xl:text-[22px]">The best coffee in town</h3>
+          <p class="sm:text-[12px] text-gray-700 p-4 text-[15px] text-center">By admin
+Published On: January 7th, 2020
+Categories: News</p>
+          </div>
+         
+        </div>
+        <div class="w-full md:w-3/12">
+          <figure class="w-full">
+            <img src="img/imgi_10_blog82x-600x687.jpg" alt="" class="object-cover w-full">
+          </figure>
+          <div class="justify-center row">
+             <h3 class="mt-3 font-bold text-black uppercase text-[20px] sm:text-[25px] md:text-[12px] xl:text-[22px]">The best coffee in town</h3>
+          <p class="sm:text-[12px] text-gray-700 p-4 text-[15px] text-center">By admin
+Published On: January 7th, 2020
+Categories:News</p>
+          </div>
+        </div>
+      </div>
+     </section> 
+     <!-- /////////////////////////////////////////// -->
+       <section class="w-full min-h-screen m-10 mx-auto 2xl:container ">
+      <div class="flex h-full row">
+        <div
+          class="w-full h-[500px] xl:w-3/5 bg-[url(../img/imgi_32_slider72x-scaled.jpg)] md:h-full bg-cover bg-no-repeat animate-slide-in bg-center sm:min-h-screen"
+        ></div>
+        <div
+          class="w-full bg-black sm:min-h-screen xl:w-2/5 md:h-full h-[550px]"
+        >
+          <div
+            class="*:text-white *:flex h-full *:sm:p-3 w-full sm:p-2 *:p-3.5 flex justify-center flex-col items-center xl:p-8 xl:gap-5"
+          >
+            <h4 class="text-2xl">ENJOY YOUR MEAL AT HOME</h4>
+            <h2
+              class="font-bold text-[45px] md:text-[100px] lg:text-[110px] sm:text-[50px] xl:text-[60px] text-center sm:w-3/4 w-full"
+            >
+              TAKEOUT NOW AVAILABLE
+            </h2>
+            <p
+              class="w-4/5 md:text-[20px] md:w-1/2 flex justify-center text-center"
+            >
+              Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus
+              scelerisque nisi in urna nulla. Sit tempor a et?
+            </p>
+            <div class="flex justify-center mt-6">
+              <a
+                href=""
+                class="flex gap-3 px-4 py-1 py-2 text-2xl font-bold duration-500 border border-white hover:bg-white hover:text-black"
+                >view takeout menu
+                <span class="flex w-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray"><path d="M19 20H5V21C5 21.5523 4.55228 22 4 22H3C2.44772 22 2 21.5523 2 21V12L4.51334 5.29775C4.80607 4.51715 5.55231 4 6.386 4H17.614C18.4477 4 19.1939 4.51715 19.4867 5.29775L22 12V21C22 21.5523 21.5523 22 21 22H20C19.4477 22 19 21.5523 19 21V20ZM4.136 12H19.864L17.614 6H6.386L4.136 12ZM6.5 17C7.32843 17 8 16.3284 8 15.5C8 14.6716 7.32843 14 6.5 14C5.67157 14 5 14.6716 5 15.5C5 16.3284 5.67157 17 6.5 17ZM17.5 17C18.3284 17 19 16.3284 19 15.5C19 14.6716 18.3284 14 17.5 14C16.6716 14 16 14.6716 16 15.5C16 16.3284 16.6716 17 17.5 17Z"></path></svg>
+                </span>
+                </a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////////////////////////// -->
+     <video src="video/5223104-Hd 1920 1080 25Fps.mp4" class="w-full" autoplay muted loop></video>
+     <!-- //////////////////////////////////////////////////// -->
+      <footer class="w-full mx-auto 2xl:container bg-[url(../img/imgi_26_slider52x.jpg)] sm:min-h-screen bg-center bg-no-repeat relative h-[600px] font-serif ">
+            <div class="absolute inset-0 h-full bg-gradient-to-b from-black to-transparent"></div>
+         <div class="absolute inset-0 h-full bg-gradient-to-t from-black to-transparent"></div>
+        <div class="justify-center h-full row *:z-20 sm:pt-48 p-24 gap-4 tracking-in-expand">
+          <div class="">
+             <figure class="flex justify-center">
+          <img src="img/imgi_1_logo-svg.svg" alt="">
+         </figure>
+         <div class="flex justify-center "><p class="flex justify-center h-full text-lg text-center text-white sm:w-2/3 sm:text-xl ">Quam eu proin sit massa condimentum. Volutpat non pulvinar
+aliquet nunc. Quam eu proin sit massa condimentum.</p></div>
+          <div class="flex justify-center gap-5 mt-6 text-white cursor-pointer">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-[40px] p-2 bg-white rounded-full hover:bg-black hover:fill-white  duration-700 "><path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z"></path></svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-[40px] p-2 rounded-full bg-white hover:bg-black hover:fill-white  duration-700 "><path d="M17.6874 3.0625L12.6907 8.77425L8.37045 3.0625H2.11328L9.58961 12.8387L2.50378 20.9375H5.53795L11.0068 14.6886L15.7863 20.9375H21.8885L14.095 10.6342L20.7198 3.0625H17.6874ZM16.6232 19.1225L5.65436 4.78217H7.45745L18.3034 19.1225H16.6232Z"></path></svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-[40px] p-2 rounded-full bg-white hover:bg-black hover:fill-white  duration-700 "><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"></path></svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-[40px] p-2 rounded-full bg-white hover:bg-black hover:fill-white  duration-700 "><path d="M12.2439 4C12.778 4.00294 14.1143 4.01586 15.5341 4.07273L16.0375 4.09468C17.467 4.16236 18.8953 4.27798 19.6037 4.4755C20.5486 4.74095 21.2913 5.5155 21.5423 6.49732C21.942 8.05641 21.992 11.0994 21.9982 11.8358L21.9991 11.9884L21.9991 11.9991C21.9991 11.9991 21.9991 12.0028 21.9991 12.0099L21.9982 12.1625C21.992 12.8989 21.942 15.9419 21.5423 17.501C21.2878 18.4864 20.5451 19.261 19.6037 19.5228C18.8953 19.7203 17.467 19.8359 16.0375 19.9036L15.5341 19.9255C14.1143 19.9824 12.778 19.9953 12.2439 19.9983L12.0095 19.9991L11.9991 19.9991C11.9991 19.9991 11.9956 19.9991 11.9887 19.9991L11.7545 19.9983C10.6241 19.9921 5.89772 19.941 4.39451 19.5228C3.4496 19.2573 2.70692 18.4828 2.45587 17.501C2.0562 15.9419 2.00624 12.8989 2 12.1625V11.8358C2.00624 11.0994 2.0562 8.05641 2.45587 6.49732C2.7104 5.51186 3.45308 4.73732 4.39451 4.4755C5.89772 4.05723 10.6241 4.00622 11.7545 4H12.2439ZM9.99911 8.49914V15.4991L15.9991 11.9991L9.99911 8.49914Z"></path></svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-[40px] p-2 rounded-full bg-white hover:bg-black hover:fill-white  duration-700 "><path d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z"></path></svg>
+            </span>
+          </div>
+          </div>
+        </div>
+        <!-- ////////////////////////footer -->
+        
+      <!-- wrapper گوشه پایین سمت راست -->
+<div class="absolute right-0 z-50 bottom-2">
+  <div class="relative w-[180px] h-[180px] flex justify-center items-center group overflow-visible">
+
+    <!-- حلقه پس‌زمینه -->
+    <div class="absolute w-[140px] h-[140px] rounded-full bg-black opacity-70 z-0 animate-spin-slow rotate"></div>
+
+    <!-- لوگو -->
+    <img src="img/nacy-removebg-preview.png"
+         alt="Logo"
+         class="h-[120px] z-20 pointer-events-none transition-transform duration-300 group-hover:scale-[1.05]" />
+
+    <!-- ردیف آیکون‌ها با gap -->
+    <!-- در حالت عادی زیر لوگو مخفی هست (translate-y-4, opacity-0) و هنگام هاور ظاهر می‌شه -->
+    <ul class="absolute z-40 flex items-center justify-center gap-4 transition-all duration-500 scale-90 -translate-x-1/2 translate-y-6 opacity-0 pointer-events-none left-1/2 group-hover:translate-y-20 group-hover:opacity-100 group-hover:scale-100">
+      <li>
+        <a href="https://www.instagram.com/nastaran__dev" target="_blank" class="pointer-events-auto">
+          <img src="./img/instagram-fill.svg" class="w-[30px]" alt="Instagram">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/Nastaran-dev" target="_blank" class="pointer-events-auto">
+          <img src="./img/github-fill.svg" class="w-[30px]" alt="GitHub">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/nastaran-mohammadi-1515a8382" target="_blank" class="pointer-events-auto">
+          <img src="./img/linkedin-box-fill.svg" class="w-[30px]" alt="LinkedIn">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+      </footer>
+      <!-- /////////////////////////////////////////////////////////// -->
+       
+  </body>
+</html>
+ 
