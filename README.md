@@ -46,9 +46,6 @@ Perfect for anyone who wants to code quick, clean, and responsive
 A one-day, responsive, sleek project that proves you can build amazing things with Tailwind CSS in no time.
 Give it a star ⭐, get a smile 😎
 
-
-دوره فرنت اند :  https://trainingsitedesign.ir/learn-web-design/
-
 <ul>
   <li><a href=https://nastaran-dev.github.io/restaurant-project/src/index.html>Live Demo</a></li>
 </ul>
